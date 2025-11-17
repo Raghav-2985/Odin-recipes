@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cta {
+  text-align: center;
+  height: 500px;
+  padding: 150px;
+  display: block;
+  background-image: url(images/pizza-3010062.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.cta h1 {
+  margin-bottom: 25px;
+}
+
+#get_s {
+  color: white;
+  padding: 10px;
+  border: 2px solid white;
+  background: radial-gradient(#ffa600e0);
+  height: auto;
+  width: 200px;
+  margin: 25px auto;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.tea,
+.panner,
+.pasta {
+  font-size: 20px;
+  font-size: 1000;
+  height: 200px;
+  width: auto;
+  display: inline-block;
+  text-decoration: none;
+  background-position: center;
+  background-size: cover;
+  padding: 30px;
+  border: 3px solid white;
+  margin: 25px auto;
+  text-align: center;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.tea {
+  background-image: url(images/tea.jpg);
+}
+.pasta {
+  background-image: url(images/pasta.png);
+}
+.panner {
+  background-image: url(images/panner.jpg);
+}
+.t {
+  margin: 25px auto 30px;
+  color: white;
+  text-decoration: none;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.recipe {
+  background-color: orange;
+  color: white;
+  text-align: center;
+}
+
+.rec_head {
+  text-align: center;
+  display: block;
+  font-family: "Noto Sans", sans-serif;
+  color: white;
+  background-color: orange;
+  padding: 25px;
+  margin: 10px auto;
+}
