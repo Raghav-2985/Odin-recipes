@@ -8,7 +8,7 @@
 
 .cta {
   text-align: center;
-  height: 500px;
+  height: 80vh;
   padding: 150px;
   display: block;
   background-image: url(images/pizza-3010062.jpg);
@@ -61,7 +61,7 @@
 .panner {
   background-image: url(images/panner.jpg);
 }
-.t {
+.recipe a{
   margin: 25px auto 30px;
   color: white;
   text-decoration: none;

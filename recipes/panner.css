@@ -1,0 +1,48 @@
+/* Noto sans */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: linear-gradient(red,orange, yellow);
+
+}
+
+.title {
+    text-align: center;
+    font-family: "Noto Sans" , sans-serif;
+    color: white;
+    padding: 30px;
+    font-size: 50px;
+
+}
+
+.ing li, .instruction li{
+    color: white;
+    margin: 0 35px 15px;
+    font-family: "Noto Sans" , sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.ing > h1 , .instruction > h1 {
+    text-align: center;
+    font-family: "Noto Sans" , sans-serif;
+    font-weight: 800px;
+    font-size: 30px;
+    margin: 25px ;
+    color: white;
+}
+
+#gravy , #curry {
+    font-family: "Noto Sans" , sans-serif;
+    margin: 25px;
+    color: white;
+
+}
+

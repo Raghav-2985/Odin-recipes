@@ -1,0 +1,47 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background:linear-gradient(blue 10% , orange 85%);
+    
+}
+.title {
+    
+    font-family: "Noto Sans" , serif;
+    font-weight: 800;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+.ing , .instruction{
+    font-family: "Noto Sans" , serif;
+    padding: 5%;
+    color: white;
+
+}
+
+.ing > h1, .instruction > h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.ing > ul , .instruction > ul {
+    font-size: 24px;
+
+}
+.ing li , .instruction li{
+    margin:25px;
+}
